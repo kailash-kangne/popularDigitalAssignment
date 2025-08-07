@@ -7,7 +7,7 @@ import logging
 
 real_time_events_1={}
 real_time_events_2={}
-scale = 10**3 #scale 1 second to 1 millisecond, less the scale, more will be accurate output
+scale = 10**3 #scale 1 second to 1 millisecond, less the scale, more will be accurate output.
 #scale = 10**2 #scale 1 second to 10 milliseconds, but run slow to simulate
 
 stop_event = asyncio.Event()
